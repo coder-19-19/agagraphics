@@ -1,0 +1,71 @@
+.main .max-width{
+   text-align: center;
+} 
+.card{
+    width: 30%;
+    display: inline-block;
+    border: 2px solid var(--main-color);
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    margin: 5px;
+}
+
+.card .card-header .project-img{
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+}
+.card .card-footer{
+    margin-top: -4px;
+    text-align: left;
+    color: #fff;
+    background-color: var(--secondary-color);
+    padding: 20px 20px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.card-footer .header{
+    margin-bottom: 10px;
+}
+.card .card-footer .header a{
+    transition: all var(--transition-speed);
+    color: #fff;
+    -webkit-transition: all var(--transition-speed);
+    -moz-transition: all var(--transition-speed);
+    -ms-transition: all var(--transition-speed);
+    -o-transition: all var(--transition-speed);
+}
+.card .card-footer .header a:hover{
+    color: var(--main-color);
+}
+.card .card-footer .footer{
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card .card-footer .footer .info i{
+    color: var(--main-color);
+}
+.card .card-footer .view-project{
+    color: var(--main-color);
+    transition: all var(--transition-speed);
+    -webkit-transition: all var(--transition-speed);
+    -moz-transition: all var(--transition-speed);
+    -ms-transition: all var(--transition-speed);
+    -o-transition: all var(--transition-speed);
+}
+.card .card-footer .view-project:hover{
+    color: #fff;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
